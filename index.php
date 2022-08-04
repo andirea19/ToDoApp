@@ -13,4 +13,10 @@ $tasks = [
     new Task ['assigned_to'] => 'John Doe', ['completed'] => false]
 ]
 
+$pdo = Connection::make();
+
+$db = new Database($pdo);
+
+$query = $db->query('SELECT * FROM {$table}');
+
 require 'index.view.php';
