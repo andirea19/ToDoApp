@@ -3,4 +3,6 @@ A quick refresh on arrays and views in php
 
 Finished the exam.
 
+Passed
+
 EyyYyyy
