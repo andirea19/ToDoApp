@@ -5,4 +5,4 @@ Finished the exam.
 
 Passed
 
-EyyYyyy
+EyYyy
