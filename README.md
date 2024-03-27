@@ -1,7 +1,7 @@
 # ToDoApp
 A quick refresh on arrays, databases and views in php
 
-#' Einführung in meine Todo-App
+## Einführung in meine Todo-App
 Willkommen bei meiner Todo App, einem Aufgabenmanagement-Tool, das in mehreren Iterationen weiterentwickelt wurde, um seine Funktionalität und Benutzerfreundlichkeit zu verbessern.
 
 **Layout und Inhaltsübersicht:**
