@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabenliste</title>
+    <style>
+      
+</head>
+<body>
+    <h1>Aufgabenliste</h1>
+    <ul>
+        <?php foreach ($tasks as $task): ?>
+            <li <?php echo $task->completed ? 'class="completed"' : ''; ?>>
+                <?php echo $task->title; ?> - Fällig: <?php echo $task->due; ?> - Zuständig: <?php echo $task->assigned_to; ?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+</body>
+</html>
+
+/*
+<?php
+
+// task.php einbinden, um die Task-Klasse verfügbar zu machen
+require 'task.php';
+
+// Beispiel-Aufgaben erstellen
+$tasks = [
+    new Task('Hausaufgaben beenden', 'heute', 'Maxi Mustermann', false),
+    new Task('Einkaufen', 'morgen', 'Erika Muster', false),
+    new Task('Sport machen', 'nächste Woche', 'Petra Hauser', true)
+];
+*/
